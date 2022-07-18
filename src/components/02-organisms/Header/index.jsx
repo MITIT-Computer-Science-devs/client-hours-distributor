@@ -4,10 +4,10 @@ import Navigation from "../../01-molecules/Navigation";
 
 const Header = () => {
   return (
-    <div className={styles[""]}>
+    <header className={styles.header}>
       <div className="logo"></div>
       <Navigation></Navigation>
-    </div>
+    </header>
   )
 }
 

@@ -5,7 +5,7 @@ const ButtonNav = (props) => {
   const {text="button"} = props;
 
   return (
-    <button className={styles[""]}>{text}</button>
+    <button className={styles["button"]}>{text}</button>
   )
 }
 
